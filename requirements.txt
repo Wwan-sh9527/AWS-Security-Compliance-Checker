@@ -1,0 +1,38 @@
+# =====================
+# requirements.txt
+# =====================
+boto3>=1.28.0
+botocore>=1.31.0
+
+
+# =====================
+# .gitignore
+# =====================
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+dist/
+build/
+
+# Reports (contain account-specific data)
+report_*.json
+
+# AWS credentials — NEVER commit these
+.aws/
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+
